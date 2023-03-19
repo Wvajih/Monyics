@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+    <link href="Upload.css" rel="stylesheet"/>
+</head>
+<body>
+    <header><h1>Create Your Post</h1></header>
+    <main>
+        <form action="Upload.php" method="post" enctype="multipart/form-data">
+        <label for="ImportImg">Import Your Image(s)</label>
+        <input name="f" type="file" accept="image/gif,image/jpg,image/jpeg,image,png"/>
+        <label for="Title" >Title</label>
+        <input type="text" placeholder="apple" name="title" />
+        <label for="Description">Discription</label>
+        <textarea name="Disc" id="Disc" cols="30" rows="3"></textarea>
+        <input type="submit" name="submit" /> 
+    </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
